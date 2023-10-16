@@ -1,0 +1,56 @@
+@media screen and (max-width: 480px) {
+    .pantalla{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color:#ffdba8;
+    }
+}
+
+.header{
+    margin: 1rem 1rem 1rem 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+
+    border: 1px solid #fcc26f;
+    border-radius: 20px;
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 1rem;
+    background-color: white;
+    border: 1px solid #fcc26f;
+    border-radius: 10px;
+} 
+
+.footer{
+    margin: 1rem 1rem 1rem 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+
+    border: 1px solid #fcc26f;
+    border-radius: 20px;
+}
+
+.boton{
+    width: 10rem;
+    height: 3rem;
+    background-color:#fcc26f;;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
